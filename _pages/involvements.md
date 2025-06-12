@@ -2,7 +2,7 @@
 title: "Involvements"
 permalink: /involvements/
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 ## Leadership & Engagement
