@@ -4,6 +4,7 @@ permalink: /about/
 layout: single
 author_profile: true
 ---
+<img src="/assets/images/headshot.jpg" alt="Shams Sadhin headshot" width="200" style="border-radius: 100px; display: block; margin: 0 auto;">
 
 Hi! I’m **Shams Sadhin**, an undergraduate at the University of Cincinnati, double majoring in *Economics* and *Business Analytics* with a minor in *Mathematics*. I’m passionate about applying data-driven approaches to solve real-world problems, particularly in urban economics, real estate, and policy research.
 
