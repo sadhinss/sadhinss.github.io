@@ -116,3 +116,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# Use custom title
+include:
+  - _pages
+  - _includes/custom/site-title.html
