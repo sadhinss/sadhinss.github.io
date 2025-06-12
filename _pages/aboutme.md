@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 layout: single
-author_profile: true
+author_profile: false
 ---
 <img src="/assets/images/biopic.jpg" alt="Shams Sadhin headshot" width="200" style="border-radius: 100px; display: block; margin: 0 auto;">
 
