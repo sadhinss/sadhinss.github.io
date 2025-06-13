@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 layout: single
-permalink: /
+permalink: /about/
 author_profile: false
 sidebar:
   nav: null
