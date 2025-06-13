@@ -3,6 +3,7 @@ title: "About Me"
 permalink: /about/
 layout: single
 classes: wide
+sidebar: false
 author_profile: false
 ---
 
