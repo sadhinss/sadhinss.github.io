@@ -123,3 +123,12 @@ tag_archive:
 include:
   - _pages
   - _includes/custom/site-title.html
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/main.css"
