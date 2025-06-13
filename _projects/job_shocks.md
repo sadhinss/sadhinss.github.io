@@ -1,10 +1,13 @@
 ---
-title: "Job Shocks & Migration"
-excerpt: "Analyzed how manufacturing job losses affect population shifts using CBP + Opportunity Atlas."
-date: 2024-07-12
-tags: [R, ggplot2, labor-econ]
-header:
-  teaser: /assets/images/job-shock.jpg
+title: "Job Shock Analysis"
+layout: single
+permalink: /projects/job-shock/
 ---
 
-This research used County Business Patterns data and Opportunity Atlas outcomes to model the impact of decadal manufacturing decline on migration. I built regression models in R, visualized trends using `ggplot2`, and presented the findings at the AREUEA Pipeline Scholars Forum.
+## Job Shock Analysis
+
+Exploring manufacturing employment shocks across U.S. counties from 1980–2010.
+
+Tools: R, CBP, ggplot2, Opportunity Atlas, Census data.
+
+Visualizations and regression models demonstrate correlations between decline in employment and regional out-migration.
