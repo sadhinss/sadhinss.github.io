@@ -1,22 +1,62 @@
 ---
-title: "Involvements"
-permalink: /involvements/
+title: Involvements
 layout: single
-classes: wide
-author_profile: false
+permalink: /involvements/
 ---
+
+<style>
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  align-items: flex-start;
+}
+.resume-text {
+  flex: 1 1 60%;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.resume-gallery {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.resume-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+</style>
+
+<div class="resume-container">
+
+<!-- 📝 Resume Content -->
+<div class="resume-text">
 
 ## Leadership & Engagement
 
-**Resident Advisor**  
-Scioto Hall, UC Housing  
-- Fostered inclusive community & organized events  
-- Guided first-year students with wellness and academic support
+### Resident Advisor, University of Cincinnati  
+_Aug 2024 – May 2025_
+- Supervised 40+ residents and supported a hall of 900+, fostering an inclusive, safe, and supportive living environment  
+- Responded and de-escalated crisis situations in coordination with campus officials, ensuring resident safety and compliance  
+- Organized 4+ community events per semester and supported residents through floor meetings and 1:1 check-ins  
 
-**PACE Leader**  
-Lindner College of Business  
-- Mentored incoming business students  
-- Led classroom sessions on communication and innovation
+### PACE Leader, University of Cincinnati  
+_Aug 2024 – Dec 2024_
+- Mentored 14 students through business ideation process, providing feedback on final paper, company financials, and pitch  
+- Facilitated recitation sessions, proctored exams, graded assignments, and provided feedback to boost student performance  
 
-**Kautz-Uible & AREUEA Pipeline Scholar**  
-- Participated in cross-disciplinary research and real estate conference
+</div>
+
+<!-- 📸 Photo Gallery -->
+<div class="resume-gallery">
+  <img src="/assets/images/ra-event.jpg" alt="RA Event">
+  <img src="/assets/images/pace-session.jpg" alt="PACE Session">
+</div>
+
+</div>
+
