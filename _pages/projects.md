@@ -1,4 +1,3 @@
-# _pages/projects.md
 ---
 title: "Projects"
 permalink: /projects/
@@ -57,3 +56,4 @@ sidebar:
   </a>
 
 </div>
+
