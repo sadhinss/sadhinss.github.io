@@ -2,6 +2,7 @@
 title: "Involvements"
 permalink: /involvements/
 layout: single
+classes: wide
 author_profile: false
 ---
 
