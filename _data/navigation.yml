@@ -3,10 +3,10 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Involvements"
-    url: /involvements/
   - title: "Work Experience"
     url: /work_experience/
+  - title: "Involvements"
+    url: /involvements/
   - title: "Resume"
     url: /resume/
   - title: "Blog"
