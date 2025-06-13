@@ -5,6 +5,8 @@ main:
     url: /projects/
   - title: "Involvements"
     url: /involvements/
+  - title: "Work Experience"
+    url: /work_experience/
   - title: "Resume"
     url: /resume/
   - title: "Blog"
