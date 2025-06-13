@@ -35,13 +35,13 @@ author_profile: false
   align-items: flex-start;
 }
 .bio-image img {
-  width: 280px; /* was 280px */
+  width: 300px; /* was 280px */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 .bio-text {
   max-width: 600px; /* was 650px */
-  font-size: 1.00 rem; /* was 1.05rem */
+  font-size: 1.00rem; /* was 1.05rem */
   line-height: 1.4;   /* was 1.8 */
 }
 </style>
