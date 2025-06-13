@@ -1,8 +1,14 @@
 ---
+---
 title: "About Me"
+layout: single
 permalink: /
-layout: wide-about
 author_profile: false
+sidebar:
+  nav: null
+  disable: true
+---
+
 ---
 
 ---
