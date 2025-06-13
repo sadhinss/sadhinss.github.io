@@ -9,46 +9,27 @@ author_profile: false
   .bio-container {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    gap: 3rem;
-    max-width: 1200px; /* ⬅️ Wider than before */
+    justify-content: flex-start;
+    gap: 4rem;
+    max-width: 90vw; /* 🟢 Nearly full width */
     margin: 2rem auto;
     padding: 0 2rem;
-    flex-wrap: nowrap; /* ⬅️ Prevent stacking */
-  }
-
-  .bio-image {
-    flex-shrink: 0;
   }
 
   .bio-image img {
-    width: 260px;
+    width: 280px;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .bio-text {
-    font-size: 1.05rem;
+    font-size: 1.08rem;
     line-height: 1.8;
-    max-width: 800px; /* ⬅️ More breathing room */
+    max-width: 100%;
   }
 
   .bio-text p {
-    margin-bottom: 1.25rem;
-  }
-
-  @media screen and (max-width: 900px) {
-    html {
-      overflow-x: auto;
-    }
-
-    .bio-container {
-      padding: 1rem 2rem;
-    }
-
-    .bio-text {
-      min-width: 300px;
-    }
+    margin-bottom: 1.5rem;
   }
 </style>
 
@@ -67,3 +48,4 @@ author_profile: false
     <p>Outside of work, I enjoy tennis, badminton, basketball, traveling, watching TV shows, and eating!</p>
   </div>
 </div>
+
