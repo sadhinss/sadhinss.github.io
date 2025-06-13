@@ -1,121 +1,41 @@
 ---
-title: "About Me"
 layout: single
+title: "About Me"
 permalink: /about/
 author_profile: false
-sidebar:
-  nav: null
-  disable: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/banner.jpg # Optional background image
+  caption: " "
+  actions: []
 ---
 
+<!-- 🟦 Banner -->
+# 👋 Hi, I’m Shams Sadhin
 
-<style>
-  .sidebar, .page__sidebar, .page__meta {
-    display: none !important;
-  }
-  .page {
-    display: block !important;
-  }
-  .page__main {
-    width: 100% !important;
-  }
-</style>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: 2rem; padding-top: 2rem;">
 
-<style>
-  .hero-banner {
-    position: relative;
-    text-align: center;
-    padding: 4rem 1rem;
-    background: #f5f5f5;
-    font-family: "Inter", sans-serif;
-  }
-
-  .hero-banner h1 {
-    font-size: 2.5rem;
-    margin: 0;
-  }
-
-  .hero-banner p {
-    font-style: italic;
-    font-size: 1.1rem;
-    color: #555;
-    margin-top: 0.5rem;
-  }
-
-  .hero-image img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    display: block;
-    border-radius: 8px;
-    margin-bottom: -1rem;
-  }
-
-  .bio-container {
-    display: flex;
-    gap: 3rem;
-    max-width: 1100px;
-    margin: 3rem auto;
-    padding: 0 2rem;
-    align-items: flex-start;
-  }
-
-  .bio-image img {
-    width: 280px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  }
-
-  .bio-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    max-width: 100%;
-  }
-
-  .bio-text p {
-    margin-bottom: 1.5rem;
-  }
-
-  @media screen and (max-width: 768px) {
-    .bio-container {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .bio-image img {
-      width: 200px;
-    }
-
-    .bio-text {
-      text-align: center;
-    }
-  }
-</style>
-
-<!-- Full-width image (hero background) -->
-<div class="hero-image">
-  <img src="/assets/images/banner.jpg" alt="Banner of Shams Sadhin" />
-</div>
-
-<!-- Banner with name and subtitle -->
-<div class="hero-banner">
-  <h1>Shams Sadhin</h1>
-  <p>Economics & Business Analytics | Data | Research | Policy</p>
-</div>
-
-<!-- Bio section below -->
-<div class="bio-container">
-  <div class="bio-image">
-    <img src="/assets/images/biopic.jpg" alt="Shams Sadhin headshot" />
+  <!-- 🔵 Left Column – Photo -->
+  <div style="flex: 1; min-width: 250px; max-width: 300px; text-align: center;">
+    <img src="/assets/images/biopic.jpg" alt="Shams Sadhin" style="border-radius: 16px; max-width: 100%; height: auto;">
   </div>
-  <div class="bio-text">
-    <p>Hi! I’m <strong>Shams Sadhin</strong>, an undergraduate at the University of Cincinnati, double majoring in <em>Economics</em> and <em>Business Analytics</em> with a minor in <em>Mathematics</em>.</p>
 
-    <p>I’m passionate about applying data-driven approaches to solve real-world problems, particularly in urban economics, real estate, and policy research.</p>
+  <!-- 🔴 Right Column – Description -->
+  <div style="flex: 2; min-width: 280px; max-width: 700px;">
+  <p>
+    I'm a student at the University of Cincinnati majoring in Economics and Business Analytics. I’m passionate about using data to understand real-world issues like urban mobility, job shocks, and policy design. My goal is to work at international organizations like the World Bank, IMF, or UNSC.
+  </p>
 
-    <p>My experience includes being a research assistant for Dr. Gary Painter at the Lindner Real Estate Center, Resident Advisor, and PACE Leader. I love combining academic research with hands-on application, and I’m exploring opportunities in data analytics, policy, and finance.</p>
+  <p>
+    I’ve worked as a research assistant, interned in flavor applications, and built a background in tools like R, SQL, Python, Tableau, and Power BI. I also care deeply about social innovation, sustainability, and public service.
+  </p>
 
-    <p>Outside of work, I enjoy tennis, badminton, basketball, traveling, watching TV shows, and eating!</p>
+  <p>
+    Feel free to explore my <a href="/projects/">projects</a>, check out my <a href="/resume/">resume</a>, or <a href="mailto:sadhinss@mail.uc.edu">reach out</a>!
+  </p>
   </div>
+
 </div>
+
 
