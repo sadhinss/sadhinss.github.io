@@ -58,8 +58,8 @@ permalink: /involvements/
 
 <!-- 📸 Photo Gallery -->
 <div class="resume-gallery">
-  <img src="/assets/images/ra-event.jpg" alt="RA Event">
-  <img src="/assets/images/pace-session.jpg" alt="PACE Session">
+  <img src="/assets/images/ra.jpg" alt="RA Event">
+  <img src="/assets/images/pace.jpeg" alt="PACE Session">
 </div>
 
 </div>
