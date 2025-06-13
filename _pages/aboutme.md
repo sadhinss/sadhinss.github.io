@@ -6,34 +6,15 @@ author_profile: false
 ---
 
 <style>
-  .banner {
-    text-align: center;
-    padding: 3rem 1rem;
-    background: #f4f4f4;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-  }
-
-  .banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .banner p {
-    font-size: 1.2rem;
-    color: #555;
-    font-style: italic;
-  }
-
   .bio-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
+    gap: 3rem;
+    max-width: 1200px; /* ⬅️ Wider than before */
+    margin: 2rem auto;
+    padding: 0 2rem;
+    flex-wrap: nowrap; /* ⬅️ Prevent stacking */
   }
 
   .bio-image {
@@ -41,33 +22,41 @@ author_profile: false
   }
 
   .bio-image img {
-    width: 220px;
+    width: 260px;
     border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   }
 
   .bio-text {
-    flex: 1;
-    min-width: 280px;
-    max-width: 600px;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 800px; /* ⬅️ More breathing room */
   }
 
   .bio-text p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    html {
+      overflow-x: auto;
+    }
+
+    .bio-container {
+      padding: 1rem 2rem;
+    }
+
+    .bio-text {
+      min-width: 300px;
+    }
   }
 </style>
-
-<div class="banner">
-  <h1>Shams Sadhin</h1>
-  <p>Economics & Business Analytics | Data | Research | Policy</p>
-</div>
 
 <div class="bio-container">
   <div class="bio-image">
     <img src="/assets/images/biopic.jpg" alt="Shams Sadhin headshot" />
   </div>
+
   <div class="bio-text">
     <p>Hi! I’m <strong>Shams Sadhin</strong>, an undergraduate at the University of Cincinnati, double majoring in <em>Economics</em> and <em>Business Analytics</em> with a minor in <em>Mathematics</em>.</p>
 
