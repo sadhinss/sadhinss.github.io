@@ -1,16 +1,13 @@
 ---
 title: "About Me"
-layout: single
+layout: wide
 permalink: /about/
 author_profile: false
 sidebar:
   nav: null
   disable: true
 ---
-article.page {
-    float: left;
-    width: 100%;
-}
+
 
 <style>
   .sidebar, .page__sidebar, .page__meta {
