@@ -7,10 +7,11 @@ sidebar:
   nav: null
   disable: true
 ---
+article.page {
+    float: left;
+    width: 100%;
+}
 
----
-
----
 <style>
   .sidebar, .page__sidebar, .page__meta {
     display: none !important;
