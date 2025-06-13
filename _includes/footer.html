@@ -1,11 +1,8 @@
-<footer class="site-footer">
-  <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-
-    <p style="margin-left: auto;">Shams Sadhin</p>
+<footer class="site-footer" style="position: relative;">
+  <div class="wrapper" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
 
     {% if site.footer.links %}
-      <ul class="social-icons" style="width: 100%; padding-top: 10px;">
+      <ul class="social-icons" style="margin: 0; padding-left: 0;">
         {% for link in site.footer.links %}
         <li>
           <a href="{{ link.url }}">
@@ -15,6 +12,11 @@
         {% endfor %}
       </ul>
     {% endif %}
+
+    <p style="margin-left: auto; text-align: right; width: 100%; padding-top: 10px;">
+      &copy; {{ site.time | date: '%Y' }} Shams Sadhin. All rights reserved.
+    </p>
+
   </div>
 </footer>
 
