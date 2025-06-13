@@ -6,6 +6,17 @@ classes: wide
 sidebar: false
 author_profile: false
 ---
+<style>
+  .sidebar, .page__sidebar, .page__meta {
+    display: none !important;
+  }
+  .page {
+    display: block !important;
+  }
+  .page__main {
+    width: 100% !important;
+  }
+</style>
 
 <style>
   .hero-banner {
