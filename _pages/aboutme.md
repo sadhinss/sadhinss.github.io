@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 permalink: /about/
-layout: single
+layout: wide
 author_profile: false
 ---
 
