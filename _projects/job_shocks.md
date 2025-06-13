@@ -1,13 +1,20 @@
 ---
-title: "Job Shock Analysis"
+title: "Job Shock"
+excerpt: "Manufacturing decline and population movement using CBP + OA data"
 layout: single
-permalink: /projects/job-shock/
+collection: projects
+header:
+  image: /assets/images/job-shock.jpg
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+permalink: /projects/job_shock/
 ---
 
-## Job Shock Analysis
+## 📊 Overview
 
-Exploring manufacturing employment shocks across U.S. counties from 1980–2010.
+This project explores how manufacturing decline affects local employment and population patterns across the U.S. using CBP + Opportunity Atlas data...
 
-Tools: R, CBP, ggplot2, Opportunity Atlas, Census data.
-
-Visualizations and regression models demonstrate correlations between decline in employment and regional out-migration.
+## 📁 Tools Used
+- R
+- ggplot2
+- dplyr
