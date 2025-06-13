@@ -1,78 +1,70 @@
 ---
 title: About Me
-layout: single
 permalink: /about/
+layout: single
 author_profile: false
 ---
 
 <style>
+/* Banner styling */
 .hero-banner {
+  background: #f5f5f5;
   text-align: center;
   padding: 3rem 1rem;
-  background: #f5f5f5;
   font-family: "Inter", sans-serif;
 }
 .hero-banner h1 {
-  font-size: 2.5rem;
-  margin: 0;
+  font-size: 2.8rem;
+  margin-bottom: 0.6rem;
 }
 .hero-banner p {
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #555;
-  margin-top: 0.5rem;
 }
 
+/* Two-column bio layout */
 .bio-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 3rem;
   max-width: 1100px;
   margin: 3rem auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   align-items: flex-start;
 }
 .bio-image img {
-  width: 340px;
+  width: 280px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 .bio-text {
-  font-size: 1.1rem;
+  max-width: 650px;
+  font-size: 1.05rem;
   line-height: 1.8;
-  max-width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .bio-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .bio-image img {
-    width: 260px;
-  }
-  .bio-text {
-    text-align: center;
-  }
 }
 </style>
 
+<!-- Banner -->
 <div class="hero-banner">
   <h1>Shams Sadhin</h1>
-  <p>Economics & Business Analytics | Data | Research | Policy</p>
+  <p><em>Economics & Business Analytics | Data | Research | Policy</em></p>
 </div>
 
+<!-- Bio Layout -->
 <div class="bio-container">
   <div class="bio-image">
-    <img src="/assets/images/biopic.jpg" alt="Shams Sadhin">
+    <img src="/assets/images/biopic.jpg" alt="Shams Sadhin headshot">
   </div>
   <div class="bio-text">
     <p>Hi! I’m <strong>Shams Sadhin</strong>, an undergraduate at the University of Cincinnati, double majoring in <em>Economics</em> and <em>Business Analytics</em> with a minor in <em>Mathematics</em>.</p>
 
     <p>I’m passionate about applying data-driven approaches to solve real-world problems, particularly in urban economics, real estate, and policy research.</p>
 
-    <p>My experience includes being a research assistant for Dr. Gary Painter at the Lindner Real Estate Center, <strong>Resident Advisor</strong>, and <strong>PACE Leader</strong>. I love combining academic research with hands-on application, and I’m exploring opportunities in data analytics, policy, and finance.</p>
+    <p>My experience includes being a research assistant for Dr. Gary Painter at the Lindner Real Estate Center, Resident Advisor, and PACE Leader. I love combining academic research with hands-on application, and I’m exploring opportunities in data analytics, policy, and finance.</p>
 
-    <p>Outside of work, I enjoy <strong>tennis</strong>, <strong>badminton</strong>, <strong>basketball</strong>, <strong>traveling</strong>, watching TV shows, and <strong>eating</strong>!</p>
+    <p>Outside of work, I enjoy tennis, badminton, basketball, traveling, watching TV shows, and eating!</p>
   </div>
 </div>
 
