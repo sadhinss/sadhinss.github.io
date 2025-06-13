@@ -38,10 +38,11 @@ sidebar:
   align-items: flex-start;
 }
 .bio-image img {
-  width: 280px;
+  width: 340px; /* or try 360px, 400px, etc. */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
 .bio-text {
   max-width: 650px;
   font-size: 1.05rem;
