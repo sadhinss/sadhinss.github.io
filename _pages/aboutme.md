@@ -41,7 +41,7 @@ author_profile: false
 }
 .bio-text {
   max-width: 600px; /* was 650px */
-  font-size: 0.75rem; /* was 1.05rem */
+  font-size: 1.00 rem; /* was 1.05rem */
   line-height: 1.4;   /* was 1.8 */
 }
 </style>
