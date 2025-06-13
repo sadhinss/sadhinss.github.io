@@ -1,7 +1,7 @@
 ---
 title: Work Experience
 layout: single
-permalink: /work-experience/
+permalink: /work_experience/
 ---
 
 <style>
