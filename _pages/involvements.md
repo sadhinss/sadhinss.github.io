@@ -37,18 +37,22 @@ permalink: /involvements/
 <!-- 📝 Resume Content -->
 <div class="resume-text">
 
-## Leadership & Engagement
+<h2>Leadership & Engagement</h2>
 
-### Resident Advisor, University of Cincinnati  
-_Aug 2024 – May 2025_
-- Supervised 40+ residents and supported a hall of 900+, fostering an inclusive, safe, and supportive living environment  
-- Responded and de-escalated crisis situations in coordination with campus officials, ensuring resident safety and compliance  
-- Organized 4+ community events per semester and supported residents through floor meetings and 1:1 check-ins  
+<h3>Resident Advisor, University of Cincinnati</h3>
+<p><em>Aug 2024 – May 2025</em></p>
+<ul>
+  <li>Supervised 40+ residents and supported a hall of 900+, fostering an inclusive, safe, and supportive living environment</li>
+  <li>Responded and de-escalated crisis situations in coordination with campus officials, ensuring resident safety and compliance</li>
+  <li>Organized 4+ community events per semester and supported residents through floor meetings and 1:1 check-ins</li>
+</ul>
 
-### PACE Leader, University of Cincinnati  
-_Aug 2024 – Dec 2024_
-- Mentored 14 students through business ideation process, providing feedback on final paper, company financials, and pitch  
-- Facilitated recitation sessions, proctored exams, graded assignments, and provided feedback to boost student performance  
+<h3>PACE Leader, University of Cincinnati</h3>
+<p><em>Aug 2024 – Dec 2024</em></p>
+<ul>
+  <li>Mentored 14 students through business ideation process, providing feedback on final paper, company financials, and pitch</li>
+  <li>Facilitated recitation sessions, proctored exams, graded assignments, and provided feedback to boost student performance</li>
+</ul>
 
 </div>
 
@@ -59,4 +63,3 @@ _Aug 2024 – Dec 2024_
 </div>
 
 </div>
-
