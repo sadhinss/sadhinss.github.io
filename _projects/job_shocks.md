@@ -7,3 +7,5 @@ permalink: /projects/job-shock/
 header:
   teaser: /assets/images/job-shock.jpg
 ---
+
+
