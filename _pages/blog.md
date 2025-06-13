@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 layout: home
+classes: wide
 permalink: /blog/
 entries_layout: list
 author_profile: false
