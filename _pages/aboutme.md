@@ -1,10 +1,10 @@
 ---
 title: "About Me"
-permalink: /about/
-layout: single
-classes: wide
-sidebar: false
+permalink: /
+layout: wide-about
 author_profile: false
+---
+
 ---
 <style>
   .sidebar, .page__sidebar, .page__meta {
