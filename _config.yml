@@ -138,5 +138,12 @@ defaults:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /projects/:path/
+  work:
+    output: true
+    permalink: /work_experience/:path/
+  involvements:
+    output: true
+    permalink: /involvements/:path/
+
 
