@@ -9,6 +9,23 @@ $max-width: 100%;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main styles
 
+/* === Projects: card text sizing (ALL projects) === */
+
+.collection.projects .archive__item-title {
+  font-size: 1.35rem;     /* larger project titles */
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+
+.collection.projects .archive__item-title a {
+  font-weight: 650;
+}
+
+.collection.projects .archive__item-excerpt {
+  font-size: 1.05rem;     /* larger subheader text */
+  line-height: 1.45;
+}
+
 // ✅ Optional: force full-width layout on main content
 .page__main,
 .page__inner-wrap {
