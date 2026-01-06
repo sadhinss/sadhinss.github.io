@@ -5,7 +5,6 @@ excerpt: |
   Aug 2024 – Present
 header:
   teaser: /assets/images/lrec.png
-tags: [Research, Economics, R, Python]
 ---
 
 - Cleaned and merged tract-level datasets (OA, CBP, Census).
