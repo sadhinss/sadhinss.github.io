@@ -1,23 +1,11 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Shams Sadhin
 title_url: /about/
 email: sadhinss@mail.uc.edu
-description: >- # this means to ignore newlines until "baseurl:"
-    Personal website for Shams Sadhin – Economics and Business Analytics student at the University of Cincinnati. Showcasing research, projects, resume, and blog.
+description: >-
+  Personal website for Shams Sadhin – Economics and Business Analytics student at the University of Cincinnati. Showcasing research, projects, resume, and blog.
 twitter_username: username
 github_username: sadhinss
 minimal_mistakes_skin: default
@@ -26,26 +14,17 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 timezone: America/New_York
 
+# Include additional folders/files
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - _includes/custom/site-title.html
 
 # Plugins (previously gems:)
 plugins:
@@ -73,7 +52,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:sadhinss@mail.uc.edu"
-  
 
 footer:
   links:
@@ -90,6 +68,31 @@ footer:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:sadhinss@mail.uc.edu"
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Sass
+sass:
+  style: compressed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  work:
+    output: true
+    permalink: /work_experience/:path/
+  involvements:
+    output: true
+    permalink: /involvements/:path/
+
+# Defaults (IMPORTANT: keep only ONE defaults block)
 defaults:
   # _posts
   - scope:
@@ -102,6 +105,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -109,41 +113,39 @@ defaults:
     values:
       layout: single
       author_profile: false
-      sidebar:
       nav: false
 
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# Use custom title
-include:
-  - _pages
-  - _includes/custom/site-title.html
-
-sass:
-  style: compressed
-
-defaults:
+  # _projects collection items
   - scope:
       path: ""
+      type: projects
     values:
-      css: "/assets/css/main.css"
+      layout: single
+      classes: wide
+      author_profile: false
+      share: false
+      related: false
 
+  # _work collection items
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      share: false
+      related: false
 
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-  work:
-    output: true
-    permalink: /work_experience/:path/
-  involvements:
-    output: true
-    permalink: /involvements/:path/
+  # _involvements collection items
+  - scope:
+      path: ""
+      type: involvements
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      share: false
+      related: false
 
 
