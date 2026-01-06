@@ -11,6 +11,11 @@ $max-width: 100%;
 
 /* === Projects: card text sizing (ALL projects) === */
 
+.archive__item-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.25rem 0 0.45rem;
+}
 .collection.projects .archive__item-title {
   font-size: 1.35rem;     /* larger project titles */
   line-height: 1.25;
