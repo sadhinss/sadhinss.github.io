@@ -40,10 +40,12 @@ author_profile: false
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 .bio-text {
-  max-width: 600px; /* was 650px */
-  font-size: 1.00rem; /* was 1.05rem */
-  line-height: 1.4;   /* was 1.8 */
+  max-width: 600px;
+  font-size: 0.95rem;        /* optional: slightly smaller */
+  line-height: 1.5;
+  font-weight: 400;
 }
+
 </style>
 
 <!-- Banner -->
