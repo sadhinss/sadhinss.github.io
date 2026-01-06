@@ -1,29 +1,32 @@
-<article class="archive__item">
-  {% if include.type == "grid" and post.header.teaser %}
-    <div class="archive__item-teaser">
-      <img src="{{ post.header.teaser | relative_url }}" alt="">
-    </div>
-  {% endif %}
+{% assign _type = include.type | default: "list" %}
 
-  <h2 class="archive__item-title">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </h2>
+<div class="{{ _type }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
 
-  {% if post.company %}
-    <p class="archive__item-company">
-      {{ post.company }}
-    </p>
-  {% endif %}
+    {% if _type == "grid" and post.header.teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ post.header.teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
 
-  {% if post.role_dates %}
-    <p class="archive__item-dates">
-      {{ post.role_dates }}
-    </p>
-  {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
 
-  {% if post.excerpt %}
-    <p class="archive__item-excerpt">
-      {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
-    </p>
-  {% endif %}
-</article>
+    {%- if post.company -%}
+      <p class="archive__item-company">{{ post.company }}</p>
+    {%- endif -%}
+
+    {%- if post.role_dates -%}
+      <p class="archive__item-dates">{{ post.role_dates }}</p>
+    {%- endif -%}
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+      </p>
+    {% endif %}
+
+  </article>
+</div>
+
