@@ -4,7 +4,7 @@ excerpt: |
   Causal modeling, spatial analysis, and large-scale data cleaning in R and Python.
   Aug 2024 – Present
 header:
-  teaser: /assets/images/work/lrec.jpg
+  teaser: /assets/images/work/lrec.jpeg
 tags: [Research, Economics, R, Python]
 ---
 
