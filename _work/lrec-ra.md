@@ -1,6 +1,10 @@
 ---
 title: "Research Assistant – Lindner Real Estate Center"
-excerpt: "Causal modeling, spatial analysis, and large-scale data cleaning in R and Python."
+excerpt: |
+  Causal modeling, spatial analysis, and large-scale data cleaning in R and Python.
+  Aug 2024 – Present
+header:
+  teaser: /assets/images/work/lrec.jpg
 tags: [Research, Economics, R, Python]
 ---
 
