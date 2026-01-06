@@ -5,9 +5,9 @@ main:
     url: /projects/
   - title: "Work Experience"
     url: /work_experience/
-  - title: "Involvements"
-    url: /involvements/
+  #- title: "Involvements"
+   # url: /involvements/
   - title: "Resume"
     url: /resume/
-  - title: "Blog"
-    url: /blog/
+  #- title: "Blog"
+   # url: /blog/
