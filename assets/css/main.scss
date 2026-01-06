@@ -10,16 +10,11 @@ $max-width: 100%;
 @import "minimal-mistakes"; // main styles
 
 
-/* Bigger Work Experience description text */
-.archive__item-excerpt {
-  font-size: 1.05rem;   /* try 1.1rem or 1.15rem if you want bigger */
-  line-height: 1.5;
-}
-
-/* If the excerpt is rendered as a <p> inside, this ensures it applies too */
-.archive__item-excerpt p {
-  font-size: inherit;
-  line-height: inherit;
+/* Bigger excerpt text in GRID layout (Work Experience page) */
+.page__content .grid__item .archive__item-excerpt,
+.page__content .grid__item .archive__item-excerpt p {
+  font-size: 1.15rem !important;
+  line-height: 1.55 !important;
 }
 
 
