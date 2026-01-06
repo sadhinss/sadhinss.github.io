@@ -1,0 +1,25 @@
+<article class="archive__item">
+  {% if include.type == "grid" and post.header.teaser %}
+    <div class="archive__item-teaser">
+      <img src="{{ post.header.teaser | relative_url }}" alt="">
+    </div>
+  {% endif %}
+
+  <h2 class="archive__item-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h2>
+
+  {% if post.role_dates or post.company or post.location %}
+    <p class="archive__item-meta">
+      {{ post.role_dates }}
+      {% if post.company %} · {{ post.company }}{% endif %}
+      {% if post.location %} · {{ post.location }}{% endif %}
+    </p>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <p class="archive__item-excerpt">
+      {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+    </p>
+  {% endif %}
+</article>
