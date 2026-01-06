@@ -9,26 +9,30 @@ $max-width: 100%;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main styles
 
-/* === Projects: card text sizing (ALL projects) === */
+/* === Work Experience card typography (final hierarchy) === */
 
-.archive__item-meta {
-  font-size: 0.85rem;
-  color: #666;
-  margin: 0.25rem 0 0.45rem;
-}
-.collection.projects .archive__item-title {
-  font-size: 1.35rem;     /* larger project titles */
-  line-height: 1.25;
-  margin-bottom: 0.4rem;
-}
-
-.collection.projects .archive__item-title a {
+.collection.work .archive__item-title {
+  font-size: 1.35rem;     /* Title – largest */
   font-weight: 650;
+  margin-bottom: 0.25rem;
 }
 
-.collection.projects .archive__item-excerpt {
-  font-size: 1.05rem;     /* larger subheader text */
+.collection.work .archive__item-company,
+.collection.work .archive__item-dates {
+  font-size: 1rem;        /* Same size for company + dates */
+  font-weight: 500;
+  color: #444;
+  margin: 0;
+}
+
+.collection.work .archive__item-dates {
+  margin-bottom: 0.4rem; /* Space before description */
+}
+
+.collection.work .archive__item-excerpt {
+  font-size: 0.9rem;     /* Slightly smaller than dates */
   line-height: 1.45;
+  color: #555;
 }
 
 // ✅ Optional: force full-width layout on main content
