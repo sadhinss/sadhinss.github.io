@@ -9,34 +9,14 @@ $max-width: 100%;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main styles
 
-/* === Work Experience card spacing + typography (tight, resume-style) === */
-
-.collection.work .archive__item-title {
-  font-size: 1.35rem;
-  font-weight: 650;
-  margin-bottom: 0.15rem;   /* tighter under title */
-}
-
-.collection.work .archive__item-company,
-.collection.work .archive__item-dates {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #444;
-  margin: 0;                /* REMOVE paragraph spacing */
-  line-height: 1.35;
-}
-
-.collection.work .archive__item-dates {
-  margin-top: 0.05rem;
-  margin-bottom: 0.35rem;  /* small gap before description */
-}
+/* === Work Experience: increase description + dates size === */
 
 .collection.work .archive__item-excerpt {
-  font-size: 0.9rem;
-  line-height: 1.45;
-  color: #555;
-  margin: 0;                /* remove default p margin */
+  font-size: 1.05rem;    /* ↑ description */
+  line-height: 1.5;
+  color: #444;
 }
+
 
 
 // ✅ Optional: force full-width layout on main content
