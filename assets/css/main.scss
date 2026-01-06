@@ -9,12 +9,19 @@ $max-width: 100%;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main styles
 
-/* === Work Experience: increase description + dates size === */
 
+/* Work Experience page cards (excerpt only) */
 .collection.work .archive__item-excerpt {
-  font-size: 1.05rem;    /* ↑ description */
+  font-size: 1.05rem;
   line-height: 1.5;
-  color: #444;
+  margin: 0;
+}
+
+/* Individual Work role page body text */
+.collection.work .page__content p,
+.collection.work .page__content li {
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 
